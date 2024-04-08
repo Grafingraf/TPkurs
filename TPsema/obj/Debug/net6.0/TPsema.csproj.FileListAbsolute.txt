@@ -1,0 +1,8 @@
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.csproj.AssemblyReference.cache
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.AssemblyInfoInputs.cache
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.AssemblyInfo.cs
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.csproj.CoreCompileInputs.cache
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.RazorAssemblyInfo.cache
+C:\Users\Andron\Desktop\Magi\1 semestr\TP\Kursach\TPsema\TPsema\TPsema\obj\Debug\net6.0\TPsema.RazorAssemblyInfo.cs

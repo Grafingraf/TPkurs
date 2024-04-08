@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TPsema.Models.Customer>
+
+
+
+<h2>Командировки</h2>
+<form asp-controller="Customer" asp-action="Index">
+    <p>
+        Поиск командировки по ФИО: <input type="text" name="SearchString" />
+        <input type="submit" value="Поиск" />
+        Общая стоимость командировки: @Html.DisplayNameFor(model => model.Summ) рублей
+    </p>
+</form>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Naprav)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sutoch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Home)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Proezd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Summ)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.FIO)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Naprav)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Sutoch)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Home)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Proezd)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.Summ)
+                </td>
+                <td>
+                @Html.ActionLink("Редактировать", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Удалить", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+    }
+
+</table>
+<p>
+    @Html.ActionLink("Создать", "Create")
+</p>
